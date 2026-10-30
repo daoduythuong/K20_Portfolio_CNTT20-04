@@ -17,7 +17,7 @@
 ├── index.html          # Trang portfolio chính
 ├── ket-qua.html        # Trang kết quả của form liên hệ
 ├── README.md           # Tài liệu dự án
-├── AI log.md           # Nhật ký và ghi nhận kiểm tra
+├── AI_LOG.md           # Nhật ký và ghi nhận kiểm tra
 ├── css/
 │   └── style.css       # Giao diện và bố cục responsive
 └── assets/
