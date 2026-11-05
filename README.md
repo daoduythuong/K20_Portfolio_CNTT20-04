@@ -1,4 +1,4 @@
-# Portfolio CV cá nhân — Đào Duy Thương
+# Portfolio CV cá nhân — DaoDuyThuong
 
 ## Sản phẩm này là gì?
 
@@ -42,7 +42,6 @@ Tài liệu [docs/evidence-index.md](docs/evidence-index.md) hiện chưa có n�
 ## Hạn chế / Chưa kiểm tra
 
 - Form liên hệ chỉ là form thực hành: không gửi email và không lưu dữ liệu lên máy chủ; dữ liệu được gửi bằng phương thức GET.
-- Trang kết quả `ket-qua.html` còn hiển thị tên “Việt Anh/Trần Việt Anh”, chưa đồng nhất với tên trên trang chính.
 - Các liên kết GitHub trong phần dự án được ghi là cần cập nhật.
 - Việc hiển thị ảnh và trạng thái tải ảnh trên trình duyệt chưa được xác minh bằng DevTools; xem [docs/AI_LOG.md](docs/AI_LOG.md).
 
