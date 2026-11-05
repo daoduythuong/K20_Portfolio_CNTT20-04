@@ -1,52 +1,51 @@
-# Portfolio CV cá nhân
+# Portfolio CV cá nhân — Đào Duy Thương
 
-- **Tác giả:** Đào Duy Thương
-- **Mô tả:** Website portfolio CV giới thiệu bản thân, kỹ năng, dự án, quá trình học tập và thông tin liên hệ. Trang được xây dựng bằng HTML và CSS.
+## Sản phẩm này là gì?
 
-## Liên kết
+Website portfolio CV cá nhân giới thiệu bản thân, kỹ năng, dự án học tập, quá trình học tập và thông tin liên hệ của sinh viên ngành Công nghệ Thông tin.
 
-- **Website:** [K20 Portfolio](https://daoduythuong.github.io/K20_Portfolio_CNTT20-04/)
-- **Mã nguồn:** [GitHub repository](https://github.com/daoduythuong/K20_Portfolio_CNTT20-04)
-- **Hồ sơ tác giả:** [github.com/daoduythuong](https://github.com/daoduythuong)
-- **Minh chứng:** [Trang giới thiệu](https://daoduythuong.github.io/K20_Portfolio_CNTT20-04/#gioi-thieu), [dự án](https://daoduythuong.github.io/K20_Portfolio_CNTT20-04/#du-an), [liên hệ](https://daoduythuong.github.io/K20_Portfolio_CNTT20-04/#lien-he)
+## Demo
+
+https://daoduythuong.github.io/K20_Portfolio_CNTT20-04/
+
+## Tính năng
+
+- Giới thiệu bản thân và các kỹ năng đang học.
+- Hiển thị ba dự án học tập cùng hình minh họa.
+- Trình bày một số học phần và sản phẩm học tập.
+- Có thông tin liên hệ và form lời nhắn với xác thực trường bắt buộc, email, độ dài họ tên và lời nhắn.
+
+## Cách mở
+
+1. Mở [website demo](https://daoduythuong.github.io/K20_Portfolio_CNTT20-04/).
+2. Dùng menu đầu trang để chuyển đến Giới thiệu, Kỹ năng, Dự án, Học tập hoặc Liên hệ.
+3. Ở mục Liên hệ, có thể thử form; dữ liệu hợp lệ sẽ mở trang kết quả và xuất hiện trên URL. Form không gửi email thật.
 
 ## Cấu trúc thư mục
 
 ```text
 .
-├── index.html          # Trang portfolio chính
-├── ket-qua.html        # Trang kết quả của form liên hệ
-├── README.md           # Tài liệu dự án
-├── AI_LOG.md           # Nhật ký và ghi nhận kiểm tra
+├── index.html
+├── ket-qua.html
 ├── css/
-│   └── style.css       # Giao diện và bố cục responsive
-└── assets/
-	├── 7-74849_gangster-sticker-dead-man-walking-logo-hd-png.png
-	├── avatar.svg
-	├── du-an-1.svg
-	├── du-an-2.svg
-	└── du-an-3.svg
+│   └── style.css
+├── assets/
+└── docs/
+    ├── evidence-index.md
+    └── AI_LOG.md
 ```
 
-## Chạy trên máy local
+## Đã kiểm tra
 
-Website không cần cài thư viện. Mở terminal tại thư mục dự án và chạy:
+Tài liệu [docs/evidence-index.md](docs/evidence-index.md) hiện chưa có nội dung minh chứng.
 
-```powershell
-py -m http.server 8000
-```
+## Hạn chế / Chưa kiểm tra
 
-Mở [http://localhost:8000](http://localhost:8000) trên trình duyệt. Dừng máy chủ bằng `Ctrl+C`.
+- Form liên hệ chỉ là form thực hành: không gửi email và không lưu dữ liệu lên máy chủ; dữ liệu được gửi bằng phương thức GET.
+- Trang kết quả `ket-qua.html` còn hiển thị tên “Việt Anh/Trần Việt Anh”, chưa đồng nhất với tên trên trang chính.
+- Các liên kết GitHub trong phần dự án được ghi là cần cập nhật.
+- Việc hiển thị ảnh và trạng thái tải ảnh trên trình duyệt chưa được xác minh bằng DevTools; xem [docs/AI_LOG.md](docs/AI_LOG.md).
 
-## Xuất bản
+## Khai báo AI
 
-Website công khai trên GitHub Pages tại liên kết ở phần **Liên kết**. Dự án đặt `index.html` ở thư mục gốc; cấu hình phù hợp với cấu trúc hiện tại là xuất bản từ nhánh `main`, thư mục `/(root)`. Có thể xác nhận nguồn đang được cấu hình tại **Settings → Pages** của repository.
-
-## Kiểm tra sản phẩm
-
-1. Mở trang chính và kiểm tra menu đến các mục Giới thiệu, Kỹ năng, Dự án, Học tập và Liên hệ.
-2. Tại mục Dự án, xác nhận ba hình minh họa tải được.
-3. Trong form liên hệ, thử gửi thiếu trường bắt buộc hoặc nhập dữ liệu sai để kiểm tra xác thực HTML5. Sau đó nhập họ tên từ 2 ký tự, email hợp lệ và lời nhắn từ 10 đến 500 ký tự để mở trang `ket-qua.html`.
-4. Xác nhận dữ liệu gửi bằng phương thức GET có thể xuất hiện trên URL. Form chỉ phục vụ thực hành: không gửi email và không lưu dữ liệu lên máy chủ.
-
-**Lưu ý khi kiểm tra:** `ket-qua.html` hiện hiển thị tên “Việt Anh/Trần Việt Anh”, chưa đồng nhất với tên Đào Duy Thương trên trang chính.
+Xem [docs/AI_LOG.md](docs/AI_LOG.md).
