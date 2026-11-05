@@ -34,3 +34,7 @@ Không sửa HTML, CSS hoặc asset để xử lý ảnh trong lần chẩn đo�
 - **Cách thử:** thực hiện các bước Network nêu trên, lưu URL và status cho từng ảnh; kiểm tra Preview. Nếu thấy `404`, sửa đúng URL/tên tệp hoặc bổ sung tệp vào nguồn xuất bản, sau đó tải lại với cache tắt.
 - **Kết quả hiện tại:** chưa thực hiện bước thử lại trong DevTools; chưa xác định nguyên nhân cuối cùng và chưa xác nhận sửa thành công.
 - **Sử dụng AI:** Có. AI hỗ trợ đối chiếu mã nguồn/tài nguyên và đề xuất kiểm tra; không thay thế bước xác minh Network trên trình duyệt.
+- | Ngày | Dùng AI làm gì | Em sửa lại gì |
+|---|---|---|
+| 05/11/2026 | Hỗ trợ cập nhật README, CHANGELOG và bảng minh chứng kiểm tra; đối chiếu nội dung dự án và ghi rõ những mục chưa được xác minh trực tiếp. | Đối chiếu lại tên, liên kết và nội dung với dự án; các bước chưa tự kiểm tra được ghi là “Chưa kiểm tra”, không tạo ảnh minh chứng. Em cần xem lại và chỉnh thông tin nếu có điểm nào chưa đúng với kết quả thực tế của mình. |
+
